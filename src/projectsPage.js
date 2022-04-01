@@ -17,16 +17,20 @@ function project(title, subheading, siteLink, repoLink) {
 const projectArray = [];
 
 //Create project objects
-const project1 = new project ('To-do list app', 'Self explanatory.', 'https://ateateeffeee.github.io/newTodo/', 'https://github.com/ateateeffeee/newTodo');
+
+const project0 = new project ('Weather app', 'Get the current temperature with highs, lows, and more data for any city you want.', 'https://ateateeffeee.github.io/newWeatherApp/', 'https://github.com/ateateeffeee/newWeatherApp');
+projectArray.push(project0);
+
+const project1 = new project ('To-do list app', 'Add, and delete tasks. Stay organized by creating "Projects" to sort your tasks by.', 'https://ateateeffeee.github.io/newTodo/', 'https://github.com/ateateeffeee/newTodo');
 projectArray.push(project1);
 
-const project2 = new project('Calculator', "It's a calculator.", 'https://ateateeffeee.github.io/calculator/', 'https://github.com/ateateeffeee/calculator');
+const project2 = new project('Calculator', 'Add, subtract, multiply, divide, use decimals, backspace a number. The possibilites are virutally endless.', 'https://ateateeffeee.github.io/calculator/', 'https://github.com/ateateeffeee/calculator');
 projectArray.push(project2);
 
-const project3 = new project('Library app', 'Keep a log of what you have read or what you are currently reading.', 'https://ateateeffeee.github.io/library-app/', 'https://github.com/ateateeffeee/library-app');
+const project3 = new project('Library app', 'Keep a log of what you have read or what you are currently reading. Add books, keep track of your page number, and when the big day comes, mark them complete.', 'https://ateateeffeee.github.io/library-app/', 'https://github.com/ateateeffeee/library-app');
 projectArray.push(project3);
 
-const project4 = new project('Tic-Tac-Toe', 'Prepare for EVO online.', 'https://ateateeffeee.github.io/tictactoe/', 'https://github.com/ateateeffeee/tictactoe');
+const project4 = new project('Tic-Tac-Toe', 'Compete against a friend in an intense battle.', 'https://ateateeffeee.github.io/tictactoe/', 'https://github.com/ateateeffeee/tictactoe');
 projectArray.push(project4);
 
 
